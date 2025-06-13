@@ -1,6 +1,6 @@
 openshift-deployment:
   image:
-    repository: ghcr.io//rhdh-demo-gh/approvals-example
+    repository: ghcr.io/rhdh-demo-gh/approvals-example
     pullPolicy: IfNotPresent
     tag: "main"
   
