@@ -1,0 +1,8 @@
+openshift-deployment:
+  image:
+    repository: ghcr.io//approvals-example
+    pullPolicy: IfNotPresent
+    tag: "main"
+
+  service:
+    port: 3000
